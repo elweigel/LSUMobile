@@ -11,7 +11,7 @@ angular.module('myApp.services', [])
 
         $rootScope.production = true;
         $rootScope.standaloneApp = true;
-        $rootScope.environment = 'prod'; // replcae with stage for staging, prod for production
+        $rootScope.environment = 'stage'; // replcae with stage for staging, prod for production
 
         /**************************************************************************************/
     function fnGetClearpass(config, callBack) {
