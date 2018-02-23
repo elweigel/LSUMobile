@@ -75,7 +75,7 @@ document.addEventListener('deviceready',onDeviceReady, false);
 
 var MyCampusApp = {
     config : {
-        tenant : "ycpunifyed",
+        tenant : "lsuunifyed",
         serverUrl : "https://studio.unifyed.com",
         tenantFolder : function(device, tenant) {
             if(device.platform == 'Android') {
