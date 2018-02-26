@@ -1,5 +1,5 @@
 {
-  "version": 127,
+  "version": 128,
   "tenantid": "lsuunifyed",
   "mobappid": 6494,
   "appName": "Louisiana State University",
@@ -28,7 +28,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -51,7 +51,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -74,7 +74,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -97,7 +97,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -120,7 +120,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -143,7 +143,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -166,7 +166,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -189,7 +189,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -212,7 +212,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -235,7 +235,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -258,7 +258,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -281,7 +281,7 @@
       "showInDock": false,
       "showInHome": true,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -305,7 +305,7 @@
       "showInDock": false,
       "showInHome": true,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -329,7 +329,7 @@
       "showInDock": false,
       "showInHome": true,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -353,7 +353,7 @@
       "showInDock": false,
       "showInHome": true,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -377,7 +377,7 @@
       "showInDock": true,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -407,7 +407,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -430,7 +430,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -453,7 +453,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -476,7 +476,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -499,7 +499,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -522,7 +522,7 @@
       "showInDock": true,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -533,8 +533,8 @@
           "quickdialnumbers": 
           [
             {
-              "number": "2255783231",
-              "name": "LSU Police Department"
+              "name": "LSU Police Department",
+              "number": "2255783231"
             },
             {
               "name": "General Emergency",
@@ -545,32 +545,32 @@
               "number": "225-578-4636"
             },
             {
-              "number": "225-389-2000",
-              "name": "Baton Rouge City Police"
+              "name": "Baton Rouge City Police",
+              "number": "225-389-2000"
             },
             {
-              "name": "EBR Parish Sheriff’s Office",
-              "number": "225-389-5000"
+              "number": "225-389-5000",
+              "name": "EBR Parish Sheriff’s Office"
             },
             {
               "number": "225-383-7273",
               "name": "Rape Crisis Hotline"
             },
             {
-              "name": "Domestic Abuse Hotline",
-              "number": "888-411-1333"
+              "number": "888-411-1333",
+              "name": "Domestic Abuse Hotline"
             },
             {
               "number": "225-578-8774",
               "name": "LSU Mental Health Services"
             },
             {
-              "number": "225-924-5781",
-              "name": "The Phone, 24 hour crisis line"
+              "name": "The Phone, 24 hour crisis line",
+              "number": "225-924-5781"
             },
             {
-              "name": "Poison Control",
-              "number": "1-800-222-1222"
+              "number": "1-800-222-1222",
+              "name": "Poison Control"
             },
             {
               "number": "225-578-6716",
@@ -585,16 +585,16 @@
               "name": "Our Lady of the Lake Regional Medical Center"
             },
             {
-              "name": "Ochsner Medical Center",
-              "number": "225-754-3278"
+              "number": "225-754-3278",
+              "name": "Ochsner Medical Center"
             },
             {
               "name": "Lake After Hours Highland",
               "number": "2253025757"
             },
             {
-              "name": "Lake After Hours Perkins",
-              "number": "2258198857"
+              "number": "2258198857",
+              "name": "Lake After Hours Perkins"
             }
           ]
         }
@@ -612,7 +612,7 @@
       "showInDock": true,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -635,7 +635,7 @@
       "showInDock": false,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -665,7 +665,7 @@
       "showInDock": false,
       "showInHome": true,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
@@ -745,7 +745,7 @@
       "showInDock": true,
       "showInHome": false,
       "networkrequired": true,
-      "analytics": false,
+      "analytics": true,
       "pages": 
       [
         {
