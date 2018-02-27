@@ -1,5 +1,5 @@
 {
-  "version": 220,
+  "version": 221,
   "tenantid": "lsuunifyed",
   "mobappid": 6494,
   "appName": "Louisiana State University",
@@ -35,7 +35,7 @@
           "pageid": "Athletics187",
           "pageTemplate": "<div><\/div>",
           "pageprocessor": "function pageprocessorAthletics187(pagedef, $scope, $routeParams, $compile, $http, $rootScope, $sce, $window, $location) {\r\n    var data1 = $compile($(pagedef.datatemplate))($scope);\r\n    $(\"#appContent\").append(data1);\r\n\r\n    var url = 'https://kryptosmw.kryptosmobile.com/webadapter3/services/public/lsuunifyed/LSU/LSU_ATHLETICS';\r\n    $.blockUI();\r\n    $http.get(url).success(function (data, status, headers, config) {\r\n        try {\r\n            for (var i = 0; i < data.links.length; i++) {\r\n                data.links[i]['date'] = new Date(data.links[i]['time']);\r\n            }\r\n        } catch (e) {\r\n        }\r\n\r\n        $scope.feeds = data.links;\r\n        $rootScope.Athletics168feeds = data.links;\r\n        $.unblockUI();\r\n    }).error(function (error, status, header, config) {\r\n        $.unblockUI();\r\n    });\r\n    $scope.openFeed = function (index) {\r\n        $rootScope.Athletics168feedDetails = $scope.feeds[index];\r\n        $rootScope.Athletics168Index = index;\r\n        $location.path(\"/app/Athletics187/Athletics187Page2\");\r\n    };\r\n\r\n}",
-          "datatemplate": "<style>\r\n    #branding {\r\n        display: none;\r\n    }\r\n\r\n    .lightFontColor {\r\n        color: #525252 !important;\r\n    }\r\n\r\n    .datetimeContainer {\r\n        padding: 0;\r\n        text-align: center;\r\n        margin-top: 10px;\r\n    }\r\n\r\n    .marginBottom10px {\r\n        margin-bottom: 10px\r\n    }\r\n\r\n    .marginLeft5px {\r\n        margin-left: 5px;\r\n    }\r\n\r\n    .padding15px {\r\n        padding: 15px;\r\n    }\r\n\r\n    .titleContent {\r\n        overflow: hidden;\r\n        text-overflow: ellipsis;\r\n        display: -webkit-box;\r\n        line-height: 15px; /* fallback */\r\n        max-height: 30px; /* fallback */\r\n        -webkit-line-clamp: 1; /* number of lines to show */\r\n        -webkit-box-orient: vertical;\r\n        word-break: break-all;\r\n    }\r\n\r\n<\/style>\r\n<div class=\"proximaFont lg_webAppletContentPadding fontSize14 greytext\">\r\n    <div ng-repeat=\"f in feeds\" class=\"list-group-item cursorPointer padding15px\"\r\n         ng-click=\"openFeed($index)\" ng-if=\"f.data\">\r\n\r\n        <div>\r\n            <div class=\"col-xs-2 col-md-2 datetimeContainer\">\r\n                <div class=\"fontSize20 fontBold\">\r\n                    {{ f.date | date : \"d\" }}\r\n                <\/div>\r\n                <div>\r\n                    {{ f.date | date : \"MMM\" }}\r\n                <\/div>\r\n            <\/div>\r\n            <div class=\"col-xs-10 col-md-10\">\r\n\r\n                <div class=\"fontSize15 marginBottom10px titleContent\">\r\n                    {{f.text}}\r\n                <\/div>\r\n\r\n            <\/div>\r\n            <div style=\"clear:both;\"><\/div>\r\n        <\/div>\r\n\r\n    <\/div>\r\n<\/div>"
+          "datatemplate": "<style>\r\n    #branding {\r\n        display: none;\r\n    }\r\n\r\n    .lightFontColor {\r\n        color: #525252 !important;\r\n    }\r\n\r\n    .datetimeContainer {\r\n        padding: 0;\r\n        text-align: center;\r\n        margin-top: 10px;\r\n    }\r\n\r\n    .marginBottom10px {\r\n        margin-bottom: 10px\r\n    }\r\n\r\n    .marginLeft5px {\r\n        margin-left: 5px;\r\n    }\r\n\r\n    .padding15px {\r\n        padding: 15px;\r\n    }\r\n\r\n    .titleContent {\r\n        overflow: hidden;\r\n        text-overflow: ellipsis;\r\n        display: -webkit-box;\r\n        line-height: 15px; /* fallback */\r\n        max-height: 30px; /* fallback */\r\n        -webkit-line-clamp: 1; /* number of lines to show */\r\n        -webkit-box-orient: vertical;\r\n        word-break: break-all;\r\n    }\r\n\r\n<\/style>\r\n<div class=\"proximaFont lg_webAppletContentPadding fontSize14 greytext\">\r\n    <div ng-repeat=\"f in feeds\" class=\"list-group-item cursorPointer padding15px\"\r\n         ng-click=\"openFeed($index)\" ng-if=\"f.data\">\r\n\r\n        <div>\r\n            <div class=\"col-xs-2 col-md-2 datetimeContainer\">\r\n                <div class=\"fontSize20 fontBold\">\r\n                    {{ f.date | date : \"d\" }}\r\n                <\/div>\r\n                <div>\r\n                    {{ f.date | date : \"MMM\" }}\r\n                <\/div>\r\n            <\/div>\r\n            <div class=\"col-xs-10 col-md-10\">\r\n\r\n                <div class=\"fontSize15 marginBottom10px titleContent\" style=\"margin-top: 15px;\">\r\n                    {{f.text}}\r\n                <\/div>\r\n\r\n            <\/div>\r\n            <div style=\"clear:both;\"><\/div>\r\n        <\/div>\r\n\r\n    <\/div>\r\n<\/div>"
         },
         {
           "pageid": "Athletics187Page2",
@@ -701,52 +701,52 @@
           "quickdialnumbers": 
           [
             {
-              "number": "2255783231",
-              "name": "LSU Police Department"
+              "name": "LSU Police Department",
+              "number": "2255783231"
             },
             {
-              "number": "911",
-              "name": "General Emergency"
+              "name": "General Emergency",
+              "number": "911"
             },
             {
-              "number": "225-578-4636",
-              "name": "Campus Crisis Information"
+              "name": "Campus Crisis Information",
+              "number": "225-578-4636"
             },
             {
-              "name": "Baton Rouge City Police",
-              "number": "225-389-2000"
+              "number": "225-389-2000",
+              "name": "Baton Rouge City Police"
             },
             {
-              "name": "EBR Parish Sheriff’s Office",
-              "number": "225-389-5000"
+              "number": "225-389-5000",
+              "name": "EBR Parish Sheriff’s Office"
             },
             {
               "number": "225-383-7273",
               "name": "Rape Crisis Hotline"
             },
             {
-              "name": "Domestic Abuse Hotline",
-              "number": "888-411-1333"
+              "number": "888-411-1333",
+              "name": "Domestic Abuse Hotline"
             },
             {
-              "number": "225-578-8774",
-              "name": "LSU Mental Health Services"
+              "name": "LSU Mental Health Services",
+              "number": "225-578-8774"
             },
             {
               "number": "225-924-5781",
               "name": "The Phone, 24 hour crisis line"
             },
             {
-              "number": "1-800-222-1222",
-              "name": "Poison Control"
+              "name": "Poison Control",
+              "number": "1-800-222-1222"
             },
             {
-              "name": "LSU Health Center",
-              "number": "225-578-6716"
+              "number": "225-578-6716",
+              "name": "LSU Health Center"
             },
             {
-              "number": "225-763-4400",
-              "name": "Baton Rouge General Hospital"
+              "name": "Baton Rouge General Hospital",
+              "number": "225-763-4400"
             },
             {
               "name": "Our Lady of the Lake Regional Medical Center",
@@ -757,8 +757,8 @@
               "number": "225-754-3278"
             },
             {
-              "number": "2253025757",
-              "name": "Lake After Hours Highland"
+              "name": "Lake After Hours Highland",
+              "number": "2253025757"
             },
             {
               "name": "Lake After Hours Perkins",
