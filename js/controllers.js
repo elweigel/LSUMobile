@@ -133,7 +133,7 @@ angular.module('myApp.controllers', []).
     .controller('LoginCtrl', ['$scope', '$rootScope', '$http', '$location',
         function ($scope, $rootScope, $http, $location) {
             $rootScope.back = function () {
-                $location.path("/home");
+                window.history.back();
             };
             $scope.forgotpassword = function() {
                 var url = $rootScope.metadata.forgotPasswordUrl;
